@@ -28,7 +28,7 @@ BindMessageBase::BindMessageBase():
 {
   Init();
 }
-
+//test
 
 BindMessageBase::~BindMessageBase()
 {
