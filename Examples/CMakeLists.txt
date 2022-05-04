@@ -9,6 +9,7 @@ SET(EXAMPLE_DIRS
   Status
   Receiver
   Thread
+  New
   )
 
 if (${OpenIGTLink_PROTOCOL_VERSION} GREATER 1)
