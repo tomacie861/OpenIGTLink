@@ -379,7 +379,7 @@ int ReceivePoint(igtl::Socket* socket, igtl::MessageHeader* header)
             std::cerr << " Name      : " << pointElement->GetName() << std::endl;
             std::cerr << " GroupName : " << pointElement->GetGroupName() << std::endl;
             std::cerr << " RGBA      : ( " << (int)rgba[0] << ", " << (int)rgba[1] << ", " << (int)rgba[2] << ", " << (int)rgba[3] << " )" << std::endl;
-            std::cerr << " Position  : ( " << std::fixed << pos[0] << ", " << pos[1] << ", " << pos[2] << " )" << std::endl;
+            std::cerr << " Position  : ( " << std::fixed << -1 * pos[0] << ", " << -1 * pos[1] << ", " << -1 * pos[2] << " )" << std::endl;
             std::cerr << " Radius    : " << std::fixed << pointElement->GetRadius() << std::endl;
             std::cerr << " Owner     : " << pointElement->GetOwner() << std::endl;
             std::cerr << "================================" << std::endl;
